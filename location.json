@@ -1,9 +1,0 @@
-{
-  "locations": [
-    {"name":"Ahmedabad","lat":23.0225,"lng":72.5714},
-    {"name":"Visnagar","lat":23.6986,"lng":72.5536},
-    {"name":"Mehsana","lat":23.5879,"lng":72.3693},
-    {"name":"Patan","lat":23.8500,"lng":72.1200},
-    {"name":"Gandhinagar","lat":23.2156,"lng":72.6369}
-  ]
-}
