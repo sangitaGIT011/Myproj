@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Map using JSON</title>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_I-A5OMZUfI-heIdIsdPX_snRukrDHYs"></script>
+
+<script>
+
+function initMap(){
+
+var map = new google.maps.Map(document.getElementById("map"),{
+zoom:7,
+center:{lat:23.3,lng:72.5}
+});
+
+var locations = [
+{"name":"Ahmedabad","lat":23.0225,"lng":72.5714},
+{"name":"Visnagar","lat":23.6986,"lng":72.5536},
+{"name":"Mehsana","lat":23.5879,"lng":72.3693},
+{"name":"Patan", "lat": 23.8500,"lng": 72.1200},
+{"name": "Gandhinagar","lat": 23.2156,"lng": 72.6369}
+];
+
+locations.forEach(function(location){
+
+new google.maps.Marker({
+position:{lat:location.lat,lng:location.lng},
+map:map,
+title:location.name
+});
+
+});
+
+}
+
+</script>
+
+</head>
+
+<body onload="initMap()">
+
+<h2>Google Map from JSON Data</h2>
+
+<div id="map" style="height:500px;width:100%;"></div>
+
+</body>
+</html>
