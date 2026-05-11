@@ -1,16 +1,6 @@
 {
   "cells": [
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sangitaGIT011/Myproj/blob/main/Gold_Price_PredictionwithCurrent%20data\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
       "cell_type": "code",
       "source": [
         "# =====================================================\n",
@@ -222,12 +212,12 @@
         "# ====================================================="
       ],
       "metadata": {
-        "id": "x_pdBmkMzhE2",
-        "outputId": "185c413f-a748-4dc7-8188-e2864d5501d0",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
-        }
+        },
+        "id": "x_pdBmkMzhE2",
+        "outputId": "185c413f-a748-4dc7-8188-e2864d5501d0"
       },
       "execution_count": 31,
       "outputs": [
@@ -336,8 +326,7 @@
     "colab": {
       "name": "Welcome to Colab",
       "toc_visible": true,
-      "provenance": [],
-      "include_colab_link": true
+      "provenance": []
     },
     "kernelspec": {
       "display_name": "Python 3",
